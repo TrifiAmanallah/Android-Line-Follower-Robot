@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_saisie"
+    tools:context="Created_by_TA.line_follower.Settings_activity" >
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="P.I.D Settings: "
+android:textStyle="bold"
+android:textColor="#0000ff"
+android:gravity="center"
+/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Derivative constant Kd : "
+android:textStyle="bold"
+android:textColor="#ff009a"
+android:gravity="left"
+/>
+<EditText 
+android:id="@+id/derivativ"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:textColor="#00fff9"
+android:inputType="numberDecimal"
+android:maxLength="7"
+/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Proportional constant Kp : "
+android:textStyle="bold"
+android:textColor="#ff009a"
+android:gravity="left"
+/>
+<EditText 
+android:id="@+id/proportional"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:textColor="#00fff9"
+android:inputType="numberDecimal"
+android:maxLength="7"
+/>
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Integral constant Ki: "
+android:textStyle="bold"
+android:textColor="#ff009a"
+android:gravity="left"
+/>
+<EditText 
+android:id="@+id/integral"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:textColor="#00fff9"
+android:inputType="numberDecimal"
+android:maxLength="7"
+/>
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Torch Settings: "
+android:textStyle="bold"
+android:textColor="#0000ff"
+android:gravity="center"
+/>
+<CheckBox
+                android:id="@+id/torch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activate/Desactivate TORCHE"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:checked="true"  />
+ <TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Speed Settings: "
+android:textStyle="bold"
+android:textColor="#0000ff"
+android:gravity="center"
+/>
+ <TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Maximum Right Speed : "
+android:textStyle="bold"
+android:textColor="#ff009a"
+android:gravity="left"
+/>
+<EditText 
+android:id="@+id/Max_right_speed"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:textColor="#00fff9"
+android:inputType="numberDecimal"
+android:maxLength="7"
+/>
+ <TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Maximum Left Speed : "
+android:textStyle="bold"
+android:textColor="#ff009a"
+android:gravity="left"
+/>
+<EditText 
+android:id="@+id/Max_left_speed"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:textColor="#00fff9"
+android:inputType="numberDecimal"
+android:maxLength="7"
+/>
+ 
+ 
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Background Settings: "
+android:textStyle="bold"
+android:textColor="#00ffff"
+android:gravity="center"
+/> 
+<RadioGroup
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/black_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Background" 
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/white_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="White Background" />
+ 
+    </RadioGroup>
+ 
+
+         <Button 
+android:id="@+id/enregistrer"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor="#fcfcf5"
+android:background="#2882ff"
+android:text="Enregistrer" />
+
+        </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
+    
