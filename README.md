@@ -24,13 +24,9 @@ The Robot is composed of:
 
 # Screen Shots from the app:
 
-<img src="Screen_Shots/Screenshot_2.png" width="500">
+<img src="Screen_Shots/Screenshot_2.png" width="400">    <img src="Screen_Shots/Screenshot_3.png" width="400">
 
-<img src="Screen_Shots/Screenshot_3.png" width="500">
-
-<img src="Screen_Shots/Screenshot_4.png" width="500">
-
-<img src="Screen_Shots/Screenshot_1.png" width="500">
+<img src="Screen_Shots/Screenshot_4.png" width="400">    <img src="Screen_Shots/Screenshot_1.png" width="400">
 
 # Wiring Components:
    
